@@ -1,0 +1,41 @@
+- name: Stefan Malewski
+  img: stefan.jpg
+  status: PhD Student
+  code: phd
+  url: https://ivi.malew.ski/streaming/
+  institution: Universidad de Chile
+
+- name: Tomás Díaz
+  img: tomas.jpg
+  status: PhD Student
+  code: phd
+  url: https://google.cl
+  institution: Universidad de Chile
+
+- name: Koen Jacobs
+  img: koen.jpg
+  status: Postdoc
+  code: postdoc
+  url: ""
+  institution: Inria
+
+- name: Nicolas Tabareau
+  img: nicolas.jpg
+  status: Senior Researcher
+  code: senior
+  url: ""
+  institution: Inria
+
+- name: Éric Tanter
+  img: eric.jpg
+  status: Senior Researcher
+  code: senior
+  url: ""
+  institution: UChile
+
+- name: Kenji Maillard
+  img: kenji.jpg
+  status: Junior Researcher
+  code: junior
+  url: ""
+  institution: Inria

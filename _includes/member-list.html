@@ -1,0 +1,21 @@
+<ul class="flex space-x-12">
+  {% assign members = site.data.members | where: "code", {{include.code}} %} 
+  {% for member in members %}
+  <li class="flex flex-col items-center">
+    <image
+      class="h-32 w-32 rounded-full mb-3"
+      src="/assets/img/{{member.img}}"
+    />
+    <span class="mb-1 text-xl">
+      <a
+        href="{{member.url}}"
+        class="{%if member.url %} underline decoration-transparent transition duration-300 ease-in-out hover:decoration-inherit {% endif %}"
+        >{{member.name}}</a
+      >
+    </span>
+    <span class="text-sm {{ site.palette.text.light }}"
+      >{{member.status}} at {{member.institution}}</span
+    >
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<main class="flex flex-col h-full">
+  <h1 class="mb-4">Principal Researchers</h1>
+  <section class="flex flex-col items-center">
+    {% include member-list.html code="senior" %}
+  </section>
+  <h1 class="mb-4">Members</h1>
+  <div class="flex flex-col items-center flex-1">
+    <div class="flex flex-col items-center h-full w-full justify-around">
+      <section>
+        {% include member-list.html code="phd" %}
+      </section>
+    
+      <section>
+        {% include member-list.html code="postdoc" %}
+      </section>
+    
+      <section>
+        {% include member-list.html code="junior" %}
+      </section>
+    
+    
+    </div>
+    
+  </div>
+</main>
