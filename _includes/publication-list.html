@@ -10,7 +10,7 @@
       {% if publication.pdf %}
       <a href="{{ publication.pdf }}"
         ><img
-          src="/assets/icons/file-pdf-solid.svg"
+          src="{{'/assets/icons/file-pdf-solid.svg' | prepend: site.baseurl }}"
           alt="pdf-icon"
           class="w-6 h-6"
       /></a>

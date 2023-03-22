@@ -1,10 +1,11 @@
 <ul class="flex space-x-12">
   {% assign members = site.data.members | where: "code", {{include.code}} %} 
   {% for member in members %}
+  {% assign img = '/assets/img/' | append: member.img  %}
   <li class="flex flex-col items-center">
     <image
       class="h-32 w-32 rounded-full mb-3"
-      src="/assets/img/{{member.img}}"
+      src="{{  img | prepend: site.baseurl }}"
     />
     <span class="mb-1 text-xl">
       <a
