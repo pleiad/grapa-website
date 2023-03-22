@@ -1,14 +1,28 @@
+{% assign img_url = '/assets/img/logo/' | prepend: site.baseurl %}
+
 <nav class="sm:px-4 p-6 bg-grapa-dark">
-  <div class="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="{{ '/' | relative_url }}" class="flex items-center">
-        <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" /> -->
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">{{ site.title }}</span>
+  <div class="container flex flex-row items-center justify-between mx-auto">
+    <a href="{{ '/' | relative_url }}" class="flex items-center flex-1">
+      <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" /> -->
+      <span
+        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+        >{{ site.title }}</span
+      >
     </a>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+    <div class="flex grow justify-center h-10">
+      <img class="" src="{{ img_url }}inria.png" alt="Inria" />
+      <img class="" src="{{ img_url }}uchile.png" alt="UChile" />
+      <img class="" src="{{ img_url }}gallinette.png" alt="Gallinette" />
+      <img class="" src="{{ img_url }}pleiad.png" alt="Pleiad" />
+    </div>
+    <div class="hidden md:block md:w-auto flex-none" id="navbar-default">
       <ul class="flex lg:flex-grow">
         {% for item in site.navigation_header %}
-        <a href="{{ item.url | relative_url }}" class="text-lg  block mt-4 lg:inline-block lg:mt-0 hover:text-grapa-accent mr-4 text-white {% if item.url == page.url %} {{ site.palette.text.light }} {% endif %}">
         <li>
+          <a
+            href="{{ item.url | relative_url }}"
+            class="text-lg  block mt-4 lg:inline-block lg:mt-0 hover:text-grapa-accent mr-4 text-white {% if item.url == page.url %} {{ site.palette.text.light }} {% endif %}"
+          >
             {{ item.title }}
           </a>
         </li>
@@ -16,7 +30,4 @@
       </ul>
     </div>
   </div>
-
 </nav>
-
-
