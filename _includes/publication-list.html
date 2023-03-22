@@ -18,7 +18,10 @@
     </div>
     <div class="flex flex-col">
       <span class="authors--publication">{{publication.authors}}</span>
-      <span class="{{ site.palette.text.light }}">{{publication.conference}}</span>
+      <span class="{{ site.palette.text.light }}"
+        >{{publication.conference}}</span
+      >
+      <span class="{{ site.palette.text.dark }}">{{publication.notes}}</span>
     </div>
   </li>
   {% endfor %}

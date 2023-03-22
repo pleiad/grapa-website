@@ -6,6 +6,7 @@
   conference-url: https://icfp22.sigplan.org/
   pdf: http://pleiad.dcc.uchile.cl/papers/2022/maillardAl-icfp2022.pdf
   doi: http://google.com
+  notes:
 
 - name: Gradualizing the Calculus of Inductive Constructions
   year: 2022
@@ -15,35 +16,41 @@
   conference-url: https://dl.acm.org/journal/toplas
   pdf: http://pleiad.dcc.uchile.cl/papers/2022/lennonAl-toplas2022.pdf
   doi: http://google.com
-
+  notes: Presented at POPL 2022
 
 - name: The Marriage of Univalence and Parametricity
   year: 2021
   authors: Nicolas Tabareau, Éric Tanter, Matthieu Sozeau
   conference: Journal of the ACM, volume 68, number 1, pp.5:1-5:44, January 2021, ACM Press
+  notes:
 
 - name: A Reasonably Exceptional Type Theory
   year: 2019
   authors: Pierre-Marie Pédrot, Nicolas Tabareau, Hans Fehrmann, Éric Tanter
   conference: Proceedings of the ACM on Programming Languages, volume 3, number ICFP, pp.108:1-108:29, August 2019, ACM Press
+  notes:
 
 - name: "Equivalences for Free: Univalent Parametricity for Effective Transport"
   year: 2018
   authors: Nicolas Tabareau, Éric Tanter, Matthieu Sozeau
   conference: Proceedings of the ACM on Programming Languages, volume 2, number ICFP, pp.92:1-92:29, September 2018, ACM Press
   notes: Distinguished Paper Award - superseded by JACM article "The Marriage of Univalence and Parametricity" (2021)
+  notes:
 
 - name: Foundations of Dependent Interoperability
   year: 2018
   authors: Pierre-Évariste Dagand, Nicolas Tabareau, Éric Tanter
   conference: Journal of Functional Programming, volume 28, pp.9:1-9:44, 2018, Cambridge University Press
+  notes:
 
 - name: Partial Type Equivalences for Verified Dependent Interoperability
   year: 2016
   authors: Pierre-Evariste Dagand, Nicolas Tabareau, Éric Tanter
   conference: Proceedings of the 21st ACM SIGPLAN Conference on Functional Programming (ICFP 2016), pp.298-310, Nara, Japan, September 2016, ACM Press
+  notes:
 
 - name: Gradual Certified Programming in Coq
   year: 2015
   authors: Éric Tanter, Nicolas Tabareau
   conference: Proceedings of the 11th ACM Dynamic Languages Symposium (DLS 2015), pp.26-40, Pittsburgh, PA, USA, October 2015, ACM Press
+  notes:
