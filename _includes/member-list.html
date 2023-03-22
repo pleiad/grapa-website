@@ -1,8 +1,8 @@
-<ul class="flex space-x-12">
-  {% assign members = site.data.members | where: "code", {{include.code}} %} 
+<ul class="flex justify-around">
+  {% assign members = site.data.members | where: "code", include.code %} 
   {% for member in members %}
   {% assign img = '/assets/img/' | append: member.img  %}
-  <li class="flex flex-col items-center">
+  <li class="w-48 flex flex-col items-center whitespace-normal text-center">
     <image
       class="h-32 w-32 rounded-full mb-3"
       src="{{  img | prepend: site.baseurl }}"

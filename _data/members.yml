@@ -2,14 +2,14 @@
   img: stefan.jpg
   status: PhD Student
   code: phd
-  url: https://ivi.malew.ski/streaming/
+  url: https://ivi.malew.ski
   institution: Universidad de Chile
 
 - name: Tomás Díaz
   img: tomas.jpg
   status: PhD Student
   code: phd
-  url: https://google.cl
+  url: https://pleiad.cl/people/tdiaz
   institution: Universidad de Chile
 
 - name: Koen Jacobs
@@ -17,25 +17,25 @@
   status: Postdoc
   code: postdoc
   url: ""
-  institution: Inria
+  institution: Gallinette
 
 - name: Nicolas Tabareau
   img: nicolas.jpg
-  status: Senior Researcher
+  status: Principal researcher
   code: senior
-  url: ""
-  institution: Inria
+  url: https://tabareau.fr/
+  institution: Gallinette
 
 - name: Éric Tanter
   img: eric.jpg
-  status: Senior Researcher
+  status: Principal researcher
   code: senior
-  url: ""
-  institution: UChile
+  url: https://pleiad.cl/people/etanter
+  institution: Universidad de Chile
 
 - name: Kenji Maillard
   img: kenji.jpg
   status: Junior Researcher
   code: junior
-  url: ""
-  institution: Inria
+  url: https://kenji.maillard.blue/
+  institution: Gallinette

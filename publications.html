@@ -3,7 +3,19 @@ layout: default
 publication_limit: 100
 ---
 
-<main class="">
-    {% include publication-list.html %}
+{% assign pub_size = site.data.publications.size | size %}
+<main class="flex flex-col space-y-8">
+    <section class="flex flex-col">
+      <h1 class="mb-4">Project publications</h1>
+      {% if pub_size == 0 %}
+      <p>No publications yet</p>
+      {% else %}
+      {% include publication-list.html src=site.data.publications %}
+      {% endif %}
+    </section>
+    <section>
+      <h1 class="mb-4">Prior related joint work</h1>
+      {% include publication-list.html src=site.data.previous_publications %}
+    </section>
 </main>
 

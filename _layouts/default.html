@@ -38,8 +38,9 @@
         }
         a {
           @apply text-grapa-medium;
+          @apply hover:underline;
         }
-        em { 
+        em {
           @apply not-italic;
           @apply font-bold;
           /* @apply text-grapa-accent */
@@ -51,7 +52,7 @@
     <div class="flex flex-col h-screen">
       {% include nav.html %}
       <div
-        class="flex-1 py-8 sm:px-4 md:px-16 lg:px-36 xl:px-96 flex flex-col items-center bg-gray-50"
+        class="flex-1 py-8 sm:px-4 md:px-16 lg:px-36 xl:px-96 flex flex-col bg-gray-50"
       >
         {{ content }}
       </div>
