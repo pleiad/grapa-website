@@ -21,14 +21,14 @@
 
 - name: Nicolas Tabareau
   img: nicolas.jpg
-  status: Principal researcher
+  status: Senior Researcher
   code: senior
   url: https://tabareau.fr/
-  institution: Gallinette
+  institution: Inria
 
 - name: Éric Tanter
   img: eric.jpg
-  status: Principal researcher
+  status: Professor
   code: senior
   url: https://pleiad.cl/people/etanter
   institution: Universidad de Chile
