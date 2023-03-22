@@ -1,0 +1,17 @@
+{% assign activities = site.data.news | where: "type", "activity" %}
+<ul class="flex flex-col space-y-2">
+  {% for activity in activities %}
+  <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+    <div class="flex justify-between">
+      <h5
+        class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+      ></h5>
+    </div>
+    <div class="flex flex-col">
+      <span class="">{{activity.date}}</span>
+      <span class="">{{activity.title}}</span>
+      <span class="">{{activity.description}}</span>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
