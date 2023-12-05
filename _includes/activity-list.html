@@ -9,7 +9,12 @@
     </div>
     <div class="flex flex-col">
       <span class="">{{activity.date}}: {{activity.title}}</span>
-      <span class="">{{activity.description}}</span>
+      {% if activity.url %}
+      <a href="{{ activity.url }}"
+        >{{activity.description}}</a>
+      {% else %}
+        <span class="">{{activity.description}}</span>
+        {% endif %}
     </div>
   </li>
   {% endfor %}

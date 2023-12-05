@@ -1,3 +1,8 @@
+- title: Nicolas Tabareau gives a talk at DCC, Universidad de Chile
+  date: December 6, 2023
+  description: "Talk: Verified Extraction from Coq to Ocaml "
+  url: https://comunicaciones.dcc.uchile.cl/events/312-charla-verified-extraction-from-coq-to-ocaml/
+
 - title: Nicolas Tabareau visits Pleiad
   date: December 4-15, 2023
   description:
@@ -9,6 +14,11 @@
 - title: Tomás Díaz visits Gallinette
   date: October 16, 2023 - July 31, 2024
   description:
+
+- title: Nicolas Tabareau gives a talk at DCC, Universidad de Chile
+  date: March 14, 2023
+  description: "Talk: Toward a next generation of proof assistants: going beyond the proofs as programs paradigm"
+  url: https://comunicaciones.dcc.uchile.cl/events/289-charla-toward-a-next-generation-of-proof-assistants-going-beyond-the-proofs-as-programs-paradigm/
 
 - title: Nicolas Tabareau visits Pleiad
   date: March 6-16, 2023
