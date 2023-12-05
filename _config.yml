@@ -44,10 +44,10 @@ navigation_header:
   url: /
 - title: Team
   url: /team/
-- title: Publications
-  url: /publications/
 - title: Activities
   url: /activities/
+- title: Visits
+  url: /visits/
 
 # Build settings
 theme: minima

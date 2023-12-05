@@ -1,8 +1,123 @@
 ---
 layout: default
+publication_limit: 100
 ---
 
-<main class="">
-  <h1 class="mb-4">Activities</h1>
-  {% include activity-list.html %}
+{% assign pub_size = site.data.publications.size | size %}
+<main class="flex flex-col space-y-8">
+    <section class="flex flex-col">
+      <h1 class="mb-4">Achievements and Planned Activities</h1>
+      <section class="mb-4">
+        <h2 class="mb-2">Ongoing research</h2>
+        <ul class="flex flex-col space-y-2">
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+                Gradual Indexed Inductive Types 
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              <p>
+                Extending the Gradual Calculus of Inductive Constructions (GCIC) with support for indexed inductive types and implementing a prototype in Coq.
+              </p>
+            </div>
+          </li>
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+                Internal reasoning about precision and Graduality in proof assistants
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              <p>
+                Study and further develop the ideas of internalizing precision and graduality, extending them to other gradual variants of the CIC, in order to demonstrate its benefits.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="mb-4">
+        <h2 class="mb-2">Code</h2>
+        <ul class="flex flex-col space-y-2">
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+                <a href="https://github.com/pleiad/GCIC-ML">GCIC prototype implementation</a>
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              <p>
+                A prototype implementation of GCIC written in OCaml.
+              </p>
+            </div>
+          </li>
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+                GRIP prototype implementation in Coq
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              <p>
+                A prototype implementation of the cast-calculus for GCIC (GRIP) written in Coq itself, using different extension mechanisms.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <section class="mb-4">
+        <h2 class="mb-2">Publications</h2>
+        {% if pub_size == 0 %}
+        <p>No publications yet</p>
+        {% else %}
+        {% include publication-list.html src=site.data.publications %}
+        {% endif %}
+      </section>
+      <section class="mb-4">
+        <h2 class="mb-2">Talks</h2>
+        <ul class="flex flex-col space-y-2">
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+                <a href="https://comunicaciones.dcc.uchile.cl/events/312-charla-verified-extraction-from-coq-to-ocaml/">Verified Extraction from Coq to Ocaml</a>
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              Nicolas Tabareau - Department of Computer Science, Universidad de Chile - December 6, 2023
+            </div>
+          </li>
+          <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+            <div class="flex justify-between">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+              >
+              <a href="https://comunicaciones.dcc.uchile.cl/events/289-charla-toward-a-next-generation-of-proof-assistants-going-beyond-the-proofs-as-programs-paradigm/">
+                Toward a next generation of proof assistants: going beyond the proofs as programs paradigm  
+              </a>
+              </h5>
+            </div>
+            <div class="flex flex-col">
+              Nicolas Tabareau - Department of Computer Science, Universidad de Chile - March 14, 2023
+            </div>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section>
+      <h1 class="mb-4">Prior related joint work</h1>
+      {% include publication-list.html src=site.data.previous_publications %}
+    </section>
 </main>
+
