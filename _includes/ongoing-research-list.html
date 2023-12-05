@@ -1,0 +1,17 @@
+{% assign research = site.data.ongoing-research %}
+<ul class="flex flex-col space-y-2">
+  {% for r in research %}
+  <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
+    <div class="flex justify-between">
+      <h5
+        class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
+      >
+        {{r.title}}
+      </h5>
+    </div>
+    <div class="flex flex-col">
+      <p>{{r.description}}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,8 @@
+- title: Hybrid and gradual verification in proof assistants
+  description: Study the foundations of hybrid and gradual verifications in proof assistants to allow smoothly combining static and dynamic verification in an expressive setting.
+
+- title: Gradual Indexed Inductive Types
+  description: Extending the Gradual Calculus of Inductive Constructions (GCIC) with support for indexed inductive types and implementing a prototype in Coq.
+
+- title: Internal reasoning about precision and graduality in proof assistants
+  description: Study and further develop the ideas of internalizing precision and graduality, extending them to other gradual variants of the CIC, in order to demonstrate its benefits.

@@ -1,0 +1,7 @@
+- name: GCIC prototype implementation
+  url: https://github.com/pleiad/GCIC-ML
+  description: A prototype implementation of GCIC written in OCaml.
+
+- name: GRIP prototype implementation in Coq
+  url:
+  description: A prototype implementation of the cast-calculus for GCIC (GRIP) written in Coq itself, using different extension mechanisms.
