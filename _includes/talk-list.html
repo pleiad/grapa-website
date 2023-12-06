@@ -1,4 +1,5 @@
-{% assign talks = site.data.talks %}
+{% assign talks = site.data.talks | sort: 'start_date' | reverse %}
+
 <ul class="flex flex-col space-y-2">
   {% for talk in talks %}
   <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
@@ -12,7 +13,8 @@
       </h5>
     </div>
     <div class="flex flex-col">
-      {{ talk.author }} - {{ talk.location }} - {{ talk.date }}
+      {{ talk.author }} - {{ talk.location }} - {{ talk.start_date | date: "%B
+      %d, %Y" }}
     </div>
   </li>
   {% endfor %}
