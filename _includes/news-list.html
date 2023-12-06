@@ -1,5 +1,24 @@
+{% assign news = site.data.visits | concat: site.data.talks | sort: 'start_date'
+| reverse %}
+
 <ul class="flex flex-col space-y-2">
-  {% for news in site.data.visits limit: page.publication_limit %}
+  {% for new in news limit: page.publication_limit %} {% assign start_year =
+  new.start_date | date: '%Y' %} {% assign start_month = new.start_date | date:
+  '%B' %} {% assign start_day = new.start_date | date: '%-d' %} {% if
+  new.end_date %} {% assign end_year = new.end_date | date: '%Y' %} {% assign
+  end_month = new.end_date | date: '%B' %} {% assign end_day = new.end_date |
+  date: '%-d' %} {% if start_month == end_month and start_year == end_year %} {%
+  assign date_range = start_month | append: ' ' | append: start_day | append:
+  '-' | append: end_day | append: ', ' | append: start_year %} {% else %} {%
+  assign date_range = start_month | append: ' ' | append: start_day | append: ',
+  ' | append: start_year | append: ' to ' | append: end_month | append: ' ' |
+  append: end_day | append: ', ' | append: end_year %} {% endif %} {% else %} {%
+  assign date_range = start_month | append: ' ' | append: start_day | append: ',
+  ' | append: start_year %} {% endif %} {% if new.speaker %} {% assign title =
+  'Talk "' | append: new.title | append: '" by ' | append: new.speaker | append:
+  ' at ' | append: new.location %} {% else %} {% assign title = new.title %} {%
+  endif %}
+
   <li class="py-3 px-6 bg-white rounded-lg shadow hover:bg-gray-100">
     <div class="flex justify-between">
       <h5
@@ -7,7 +26,7 @@
       ></h5>
     </div>
     <div class="flex flex-col">
-      <span class="">{{news.date}}: {{news.title}}</span>
+      <span class="">{{date_range}}: {{title}}</span>
     </div>
   </li>
   {% endfor %}
@@ -18,7 +37,10 @@
       ></h5>
     </div>
     <div class="flex flex-col">
-      <span class="">March 2023: The GRAPA Associate Team is created and funded for the period 2023-2025</span>
+      <span class=""
+        >March 2023: The GRAPA Associate Team is created and funded for the
+        period 2023-2025</span
+      >
     </div>
   </li>
 </ul>

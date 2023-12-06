@@ -8,12 +8,12 @@
         class="mb-2 text-2xl font-bold tracking-tight {{site.palette.text.dark}}"
       >
         {% if talk.url %}
-        <a href="{{ talk.url }}"> {{ talk.name }} </a>
-        {% else %} {{ talk.name }} {% endif %}
+        <a href="{{ talk.url }}"> {{ talk.title }} </a>
+        {% else %} {{ talk.title }} {% endif %}
       </h5>
     </div>
     <div class="flex flex-col">
-      {{ talk.author }} - {{ talk.location }} - {{ talk.start_date | date: "%B
+      {{ talk.speaker }} - {{ talk.location }} - {{ talk.start_date | date: "%B
       %d, %Y" }}
     </div>
   </li>
