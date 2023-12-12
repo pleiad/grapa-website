@@ -9,3 +9,15 @@
   speaker: "Nicolas Tabareau"
   location: "Department of Computer Science, Universidad de Chile"
   start_date: 2023-03-14
+
+- title: "Towards Gradual Proof Assistants: Demo"
+  url: "https://sites.google.com/view/funlep/funlep-2023?authuser=0"
+  speaker: "Mara Malewski"
+  location: "FunLep 2023"
+  start_date: 2023-05-19
+
+- title: "Towards Gradual Proof Assistants: Status and Perspectives"
+  url: "https://sites.google.com/view/funlep/funlep-2023?authuser=0"
+  speaker: "Éric Tanter"
+  location: "FunLep 2023"
+  start_date: 2023-05-18
