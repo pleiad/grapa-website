@@ -1,0 +1,9 @@
+- name: Gradual Indexed Inductive Types
+  year: 2024
+  authors: Mara Malewski, Kenji Maillard, Nicolas Tabareau, Éric Tanter
+  conference: Proceedings of the ACM on Programming Languages, volume 8, number ICFP, pp.255:1-255:29, August 2024, ACM Press
+  conference-short: ICFP 2024
+  conference-url: https://icfp24.sigplan.org/
+  pdf: http://pleiad.dcc.uchile.cl/papers/2024/malewskiAl-icfp2024.pdf
+  doi: https://doi.org/10.1145/3674644
+  notes:
