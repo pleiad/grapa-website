@@ -20,14 +20,6 @@ publication_limit: 100
           {% endif %}
       </section>
 
-      {% if code_size == 0 %}
-      {% else %}
-      <section class="mb-4">
-          <h2 class="mb-2">Code</h2>
-          {% include code-list.html %}
-      </section>
-      {% endif %}
-
       <section class="mb-4">
         <h2 class="mb-2">Publications</h2>
         {% if pub_size == 0 %}
@@ -45,6 +37,15 @@ publication_limit: 100
           {% include talk-list.html %}
           {% endif %}
       </section>
+
+      {% if code_size == 0 %}
+      {% else %}
+      <section class="mb-4">
+          <h2 class="mb-2">Code</h2>
+          {% include code-list.html %}
+      </section>
+      {% endif %}
+
     </section>
 
     <section>
