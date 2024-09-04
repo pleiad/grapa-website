@@ -1,3 +1,9 @@
+- title: "Gradual Indexed Inductive Types"
+  url: "https://www.youtube.com/live/jm5D_5RcagA?si=rP0xwtRGCFonBgaT&t=18983"
+  speaker: "Kenji Maillard"
+  location: "ICFP 2024"
+  start_date: 2024-09-03
+
 - title: "Verified Extraction from Coq to Ocaml"
   url: "https://comunicaciones.dcc.uchile.cl/events/312-charla-verified-extraction-from-coq-to-ocaml/"
   speaker: "Nicolas Tabareau"
