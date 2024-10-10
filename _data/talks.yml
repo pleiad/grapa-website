@@ -3,27 +3,32 @@
   speaker: "Kenji Maillard"
   location: "ICFP 2024"
   start_date: 2024-09-03
+  sort_date: 2024-09-03
 
 - title: "Verified Extraction from Coq to Ocaml"
   url: "https://comunicaciones.dcc.uchile.cl/events/312-charla-verified-extraction-from-coq-to-ocaml/"
   speaker: "Nicolas Tabareau"
   location: "Department of Computer Science, Universidad de Chile"
   start_date: 2023-12-06
+  sort_date: 2023-12-06
 
 - title: "Toward a next generation of proof assistants: going beyond the proofs as programs paradigm"
   url: "https://comunicaciones.dcc.uchile.cl/events/289-charla-toward-a-next-generation-of-proof-assistants-going-beyond-the-proofs-as-programs-paradigm/"
   speaker: "Nicolas Tabareau"
   location: "Department of Computer Science, Universidad de Chile"
   start_date: 2023-03-14
+  sort_date: 2023-03-14
 
 - title: "Towards Gradual Proof Assistants: Demo"
   url: "https://sites.google.com/view/funlep/funlep-2023?authuser=0"
   speaker: "Mara Malewski"
   location: "FunLep 2023"
   start_date: 2023-05-19
+  sort_date: 2023-05-19
 
 - title: "Towards Gradual Proof Assistants: Status and Perspectives"
   url: "https://sites.google.com/view/funlep/funlep-2023?authuser=0"
   speaker: "Éric Tanter"
   location: "FunLep 2023"
   start_date: 2023-05-18
+  sort_date: 2023-05-18

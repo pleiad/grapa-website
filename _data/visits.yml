@@ -1,49 +1,59 @@
 - title: Éric Tanter visits Gallinette
   start_date: 2024-06-19
   end_date: 2024-07-03
+  sort_date: 2024-07-03
   description:
 
 - title: Mara Malewski visits Gallinette
   start_date: 2024-04-27
   end_date: 2024-07-25
+  sort_date: 2024-07-25
   description:
 
 - title: Nicolas Tabareau visits Pleiad
   start_date: 2023-12-04
   end_date: 2023-12-15
+  sort_date: 2023-12-15
   description:
 
 - title: Mara Malewski visits Gallinette
   start_date: 2023-10-27
   end_date: 2024-01-25
+  sort_date: 2024-01-25
   description:
 
 - title: Tomás Díaz visits Gallinette
   start_date: 2023-10-16
   end_date: 2024-07-31
+  sort_date: 2024-07-31
   description:
 
 - title: Koen Jacobs visits Pleiad
   start_date: 2023-10-16
-  end_date:
+  end_date: 2024-05-15
+  sort_date: 2024-05-15
   description:
 
 - title: Éric Tanter visits Gallinette
   start_date: 2023-06-27
   end_date: 2023-08-04
+  sort_date: 2023-08-04
   description:
 
 - title: Koen Jacobs visits Gallinette
   start_date: 2023-06-19
   end_date: 2023-10-13
+  sort_date: 2023-10-13
   description:
 
 - title: Nicolas Tabareau visits Pleiad
   start_date: 2023-03-06
   end_date: 2023-03-16
+  sort_date: 2023-03-16
   description:
 
 - title: Koen Jacobs visits Pleiad
   start_date: 2023-01-24
   end_date: 2023-06-16
+  sort_date: 2023-06-16
   description:

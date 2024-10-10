@@ -1,4 +1,4 @@
-{% assign visits = site.data.visits | sort: 'start_date' | reverse %}
+{% assign visits = site.data.visits | sort: 'end_date' | reverse %}
 
 <ul class="flex flex-col space-y-2">
   {% for visit in visits %} {% assign start_year = visit.start_date | date: '%Y'
