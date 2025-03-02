@@ -1,3 +1,10 @@
+- title: "MetaCoq - towards a certified kernel and extraction for Coq"
+  url: "https://comunicaciones.dcc.uchile.cl/events/330-charla-metacoq---towards-a-certified-kernel-and-extraction-for-coq/"
+  speaker: "Nicolas Tabareau"
+  location: "Department of Computer Science, Universidad de Chile"
+  start_date: 2024-11-28
+  sort_date: 2023-11-28
+
 - title: "Gradual Indexed Inductive Types"
   url: "https://www.youtube.com/live/jm5D_5RcagA?si=rP0xwtRGCFonBgaT&t=18983"
   speaker: "Kenji Maillard"
